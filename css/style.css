@@ -4,9 +4,6 @@ $color-one: #0097e6;
 $color-two: #33d9b2;
 $color-three: #ff5252;
 
-$color-font-one: #ffffff;
-$color-font-two: #2c2c54;
-
 $font-text: 'Inconsolata', Sans-Serif;
 $font-header: 'Signika', Serif;
 
@@ -20,13 +17,25 @@ body {
     margin: 0;
     font-size: 16px;
     line-height: 1.7;
-    font-family: $font-text;
-    color: $color-font-two;
-    
 }
 
 .container {
     max-width: 1140px;
     padding: 0 20px;
     margin: 0 auto;
+}
+
+h4 {
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text {
+    max-width: 40%;  
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+span {
+    font-style: italic;
+    font-size: 14px;
 }
