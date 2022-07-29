@@ -1,0 +1,27 @@
+{
+  "name": "learning-git-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cinamon88/Learning_Git.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cinamon88/Learning_Git/issues"
+  },
+  "homepage": "https://github.com/Cinamon88/Learning_Git#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "html-validate": "^7.1.2"
+  }
+}
